@@ -12,7 +12,10 @@ const userSchema = mongoose.Schema({
   email: {
     type: String,
     required: true
-
+  },
+  marca: {
+    type: String,
+    required: false
   }
 });
 
